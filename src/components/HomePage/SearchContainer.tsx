@@ -58,7 +58,7 @@ function SearchContainer () {
         error={error}/>
       ) : (
         <div>
-          <h3>Ask your first question to get started!</h3>
+          <h3 className="pb-60">Ask your first question to get started!</h3>
         </div>
       )} 
     </div>
