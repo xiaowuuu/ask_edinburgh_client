@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "homepage": "https://xiaowuuu.github.io/ask_edinburgh_client",
   "private": true,
   "dependencies": {
@@ -11,6 +11,9 @@
     "@types/node": "^16.18.83",
     "@types/react": "^18.2.58",
     "@types/react-dom": "^18.2.19",
+    "@types/react-router-dom": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
