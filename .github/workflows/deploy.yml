@@ -27,7 +27,7 @@ jobs:
           npm run build
 
       - name: ask_edinburgh_client
-        uses: xiaowuuu/ask_edinburgh_client@4
+        uses: xiaowuuu/ask_edinburgh_client@v4
         with:
           node-version: 'v20.10.0'
           folder: build # The folder the action should deploy.
