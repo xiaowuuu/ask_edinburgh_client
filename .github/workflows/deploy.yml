@@ -28,3 +28,11 @@ jobs:
         env:
           CI:
             false
+      -name:
+        Deploy
+        uses: xiaowuuu/ask_edinburgh_client@4.1.1
+        with:
+          branch:
+            gh-pages
+          folder:
+            build
