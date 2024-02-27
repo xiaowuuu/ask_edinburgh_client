@@ -27,3 +27,6 @@ jobs:
         with:
           folder: build # The folder the action should deploy.
 # Allow repo secrets
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
