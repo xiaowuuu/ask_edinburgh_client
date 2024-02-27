@@ -5,6 +5,8 @@ on:
       - main
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 env:
   REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY}}
