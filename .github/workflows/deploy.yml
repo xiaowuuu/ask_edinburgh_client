@@ -23,7 +23,7 @@ jobs:
           npm run build
 
       - name: ask_edinburgh_client
-        uses: xiaowuuu/ask_edinburgh_client@1
+        uses: xiaowuuu/ask_edinburgh_client@4
         with:
           folder: build # The folder the action should deploy.
 # Allow repo secrets
