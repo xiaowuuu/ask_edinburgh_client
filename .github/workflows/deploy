@@ -1,10 +1,10 @@
 
-name: React App Deployment # name of the workflo
+name: React App Deployment # name of the workflow
 
 on:
   push:
     branches:
-      - deploy-react-app # branch name
+      - main # branch name
 # Allow repo secrets
 env:
   REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY}}
@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: "18.16.1"
+          node-version: "16.20.2"
 
       # cache the dependencies to speed up the build
       - name: Cache dependencies
