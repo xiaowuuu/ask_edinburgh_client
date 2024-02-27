@@ -25,6 +25,9 @@ jobs:
         run: |
           npm ci
           npm run build
+        env:
+          CI:
+          ""
 
       - name: ask_edinburgh_client
         uses: xiaowuuu/ask_edinburgh_client@4
