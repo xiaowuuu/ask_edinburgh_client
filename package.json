@@ -1,6 +1,7 @@
 {
   "name": "ask_edinburgh_client",
   "version": "0.0.0",
+  "homepage": "https://xiaowuuu.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
